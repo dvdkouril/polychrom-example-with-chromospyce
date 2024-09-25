@@ -22,6 +22,8 @@ chromospyce = ">=0.1.0"
 pyarrow = ">=17.0.0"
 
 [tool.pixi.tasks]
+lab = "jupyter lab"
+nbclear = "jupyter nbconvert --clear-output --inplace *.ipynb"
 
 [tool.pixi.dependencies]
 openmm = ">=8.1.2,<9"
@@ -34,3 +36,4 @@ h5py = ">=3.11.0,<4"
 pandas = ">=2.2.3,<3"
 joblib = ">=1.4.2,<2"
 pytest = ">=8.3.3,<9"
+nbconvert = ">=7.16.4,<8"
