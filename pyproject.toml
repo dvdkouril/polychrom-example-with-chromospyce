@@ -18,3 +18,6 @@ platforms = ["osx-arm64"]
 polychrom_example_with_chromospyce = { path = ".", editable = true }
 
 [tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+openmm = ">=8.1.2,<9"
