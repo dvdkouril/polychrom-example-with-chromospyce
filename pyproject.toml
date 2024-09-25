@@ -16,8 +16,19 @@ platforms = ["osx-arm64"]
 
 [tool.pixi.pypi-dependencies]
 polychrom_example_with_chromospyce = { path = ".", editable = true }
+polychrom = { git = "https://git@github.com/open2c/polychrom.git" }
+nglutils = { git = "https://git@github.com/mirnylab/nglutils.git" }
 
 [tool.pixi.tasks]
 
 [tool.pixi.dependencies]
 openmm = ">=8.1.2,<9"
+jupyterlab = ">=4.2.5,<5"
+six = ">=1.16.0,<2"
+cython = ">=3.0.11,<4"
+numpy = ">=1.26.4,<2"
+scipy = ">=1.13.1,<2"
+h5py = ">=3.11.0,<4"
+pandas = ">=2.2.3,<3"
+joblib = ">=1.4.2,<2"
+pytest = ">=8.3.3,<9"
