@@ -104,7 +104,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/notebook-shim-0.2.4-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/numpy-1.26.4-py312h8442bc7_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/ocl_icd_wrapper_apple-1.0.0-h27ca646_0.tar.bz2
-      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/openmm-8.1.2-py312hd362c0c_3_khronos.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/openmm-8.1.2-py312ha40988d_2_khronos.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/openssl-3.3.2-h8359307_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/overrides-7.7.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/packaging-24.1-pyhd8ed1ab_0.conda
@@ -118,7 +118,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/platformdirs-4.3.6-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pluggy-1.5.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/prometheus_client-0.21.0-pyhd8ed1ab_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.47-pyha770c72_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.48-pyha770c72_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/psutil-6.0.0-py312h024a12e_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ptyprocess-0.7.0-pyhd3deb0d_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/pure_eval-0.2.3-pyhd8ed1ab_0.conda
@@ -143,7 +143,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/rfc3339-validator-0.1.4-pyhd8ed1ab_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/rfc3986-validator-0.1.1-pyh9f0ad1d_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/rpds-py-0.20.0-py312he431725_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/scipy-1.13.1-py312h14ffa8f_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/scipy-1.14.1-py312heb3a901_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/send2trash-1.8.3-pyh31c8845_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-75.1.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/six-1.16.0-pyh6c4a22f_0.tar.bz2
@@ -175,7 +175,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.6-hb46c0d2_0.conda
       - pypi: https://files.pythonhosted.org/packages/1a/5a/7b024920cca385eb9b56bc63edf0a647de208346bfac5b339b544733d53a/anywidget-0.9.13-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2b/03/13dde6512ad7b4557eb792fbcf0c653af6076b81e5941d36ec61f7ce6028/astunparse-1.6.3-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/62/d9/1e7faba886ef6e717352f0bc7b443d62e566e589da6b9a31b2f3473c3c6b/chromospyce-0.1.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/18/90/da668df8cf04e685cc543e5cc4bf43dbdb7ad9b7a09d04163b0ac0a2266b/chromospyce-0.1.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e3/04/33351c5d5108460a8ce6d512307690b023f0cfcad5899499f5c83b9d63b1/contourpy-1.3.0-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/67/9d/cfbfe36e5061a8f68b154454ba2304eb01f40d4ba9b63e41d9058909baed/fonttools-4.54.1-cp312-cp312-macosx_11_0_arm64.whl
@@ -595,9 +595,9 @@ packages:
   timestamp: 1698833765762
 - kind: pypi
   name: chromospyce
-  version: 0.1.0
-  url: https://files.pythonhosted.org/packages/62/d9/1e7faba886ef6e717352f0bc7b443d62e566e589da6b9a31b2f3473c3c6b/chromospyce-0.1.0-py3-none-any.whl
-  sha256: 1461c0c618355104f0d32297dc6a7ae95a8c132f4a336c541d57a63cd6923cc6
+  version: 0.1.1
+  url: https://files.pythonhosted.org/packages/18/90/da668df8cf04e685cc543e5cc4bf43dbdb7ad9b7a09d04163b0ac0a2266b/chromospyce-0.1.1-py3-none-any.whl
+  sha256: ea20cfd88bb627ea6ce24bafa0e68498db59d71a16a8c85078aa309214328627
   requires_dist:
   - anywidget>=0.9.13
   - numpy>=1.24.4
@@ -2313,28 +2313,28 @@ packages:
 - kind: conda
   name: openmm
   version: 8.1.2
-  build: py312hd362c0c_3_khronos
-  build_number: 3
+  build: py312ha40988d_2_khronos
+  build_number: 2
   subdir: osx-arm64
-  url: https://conda.anaconda.org/conda-forge/osx-arm64/openmm-8.1.2-py312hd362c0c_3_khronos.conda
-  sha256: 96f74a041fdf1bbd5be5b18e9a1d2e004f47734566371c074688c4d672180d49
-  md5: fe36e3aef563940df0ff6b44f495b080
+  url: https://conda.anaconda.org/conda-forge/osx-arm64/openmm-8.1.2-py312ha40988d_2_khronos.conda
+  sha256: 89c917f17ee40d22fac0f1f859e970c3ff59a5f9db30b1d6f720ec10a9c787a6
+  md5: 0091ef66af72d6d9c886ce13a824b8be
   depends:
   - __osx >=11.0
   - khronos-opencl-icd-loader >=2023.4.17
-  - libcxx >=17
+  - libcxx >=16
   - numpy >=1.26.4,<2.0a0
   - ocl_icd_wrapper_apple
   - python >=3.12,<3.13.0a0
   - python >=3.12,<3.13.0a0 *_cpython
   - python_abi 3.12.* *_cp312
-  - scipy <1.14
+  - scipy
   license: LGPL-3.0-or-later
   license_family: LGPL
   purls:
   - pkg:pypi/openmm?source=hash-mapping
-  size: 10124215
-  timestamp: 1726256874536
+  size: 10000931
+  timestamp: 1721259853902
 - kind: conda
   name: openssl
   version: 3.3.2
@@ -2409,7 +2409,7 @@ packages:
   license: BSD-3-Clause
   license_family: BSD
   purls:
-  - pkg:pypi/pandas?source=compressed-mapping
+  - pkg:pypi/pandas?source=hash-mapping
   size: 14470437
   timestamp: 1726878887799
 - kind: conda
@@ -2602,24 +2602,23 @@ packages:
   timestamp: 1726902073034
 - kind: conda
   name: prompt-toolkit
-  version: 3.0.47
+  version: 3.0.48
   build: pyha770c72_0
   subdir: noarch
   noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.47-pyha770c72_0.conda
-  sha256: d93ac5853e398aaa10f0dd7addd64b411f94ace1f9104d619cd250e19a5ac5b4
-  md5: 1247c861065d227781231950e14fe817
+  url: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.48-pyha770c72_0.conda
+  sha256: 44e4e6108d425a666856a52d1523e5d70890256a8920bb0dcd3d55cc750f3207
+  md5: 4c05134c48b6a74f33bbb9938e4a115e
   depends:
   - python >=3.7
   - wcwidth
   constrains:
-  - prompt_toolkit 3.0.47
+  - prompt_toolkit 3.0.48
   license: BSD-3-Clause
-  license_family: BSD
   purls:
   - pkg:pypi/prompt-toolkit?source=hash-mapping
-  size: 270710
-  timestamp: 1718048095491
+  size: 270271
+  timestamp: 1727341744544
 - kind: conda
   name: psutil
   version: 6.0.0
@@ -3145,23 +3144,23 @@ packages:
   timestamp: 1725327553881
 - kind: conda
   name: scipy
-  version: 1.13.1
-  build: py312h14ffa8f_0
+  version: 1.14.1
+  build: py312heb3a901_0
   subdir: osx-arm64
-  url: https://conda.anaconda.org/conda-forge/osx-arm64/scipy-1.13.1-py312h14ffa8f_0.conda
-  sha256: 5853122a2008077c20a33cabfdb30360f9b135237f336e5002ad88dfcd42fb48
-  md5: 0ef7359585e53bb3ff4539cf204f9c62
+  url: https://conda.anaconda.org/conda-forge/osx-arm64/scipy-1.14.1-py312heb3a901_0.conda
+  sha256: 48cc4b609a9cd8ea2636fe571d5017ea8f21a7097819f97f4ed6fdc69a3c1c75
+  md5: 807e90cb234c2d19a09b9453925aef95
   depends:
   - __osx >=11.0
   - libblas >=3.9.0,<4.0a0
   - libcblas >=3.9.0,<4.0a0
-  - libcxx >=16
+  - libcxx >=17
   - libgfortran 5.*
-  - libgfortran5 >=12.3.0
   - libgfortran5 >=13.2.0
   - liblapack >=3.9.0,<4.0a0
-  - numpy >=1.22.4,<2.3
+  - numpy <2.3
   - numpy >=1.19,<3
+  - numpy >=1.23.5
   - python >=3.12,<3.13.0a0
   - python >=3.12,<3.13.0a0 *_cpython
   - python_abi 3.12.* *_cp312
@@ -3169,8 +3168,8 @@ packages:
   license_family: BSD
   purls:
   - pkg:pypi/scipy?source=hash-mapping
-  size: 15380973
-  timestamp: 1716471758919
+  size: 14993910
+  timestamp: 1724328538557
 - kind: conda
   name: send2trash
   version: 1.8.3
