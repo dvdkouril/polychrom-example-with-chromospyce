@@ -128,7 +128,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pyobjc-framework-cocoa-10.3.1-py312hd24fc31_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pysocks-1.7.1-pyha2e5f31_6.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/pytest-8.3.3-pyhd8ed1ab_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.12.6-h739c21a_1_cpython.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.12.6-h739c21a_2_cpython.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-fastjsonschema-2.20.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-json-logger-2.0.7-pyhd8ed1ab_0.conda
@@ -175,7 +175,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.6-hb46c0d2_0.conda
       - pypi: https://files.pythonhosted.org/packages/1a/5a/7b024920cca385eb9b56bc63edf0a647de208346bfac5b339b544733d53a/anywidget-0.9.13-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2b/03/13dde6512ad7b4557eb792fbcf0c653af6076b81e5941d36ec61f7ce6028/astunparse-1.6.3-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/18/90/da668df8cf04e685cc543e5cc4bf43dbdb7ad9b7a09d04163b0ac0a2266b/chromospyce-0.1.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/12/09/880a1647ae8a2c0435d3d0df6ac5feb51bde5b1c4093265f770273555fbf/chromospyce-0.1.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e3/04/33351c5d5108460a8ce6d512307690b023f0cfcad5899499f5c83b9d63b1/contourpy-1.3.0-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/67/9d/cfbfe36e5061a8f68b154454ba2304eb01f40d4ba9b63e41d9058909baed/fonttools-4.54.1-cp312-cp312-macosx_11_0_arm64.whl
@@ -595,9 +595,9 @@ packages:
   timestamp: 1698833765762
 - kind: pypi
   name: chromospyce
-  version: 0.1.1
-  url: https://files.pythonhosted.org/packages/18/90/da668df8cf04e685cc543e5cc4bf43dbdb7ad9b7a09d04163b0ac0a2266b/chromospyce-0.1.1-py3-none-any.whl
-  sha256: ea20cfd88bb627ea6ce24bafa0e68498db59d71a16a8c85078aa309214328627
+  version: 0.1.2
+  url: https://files.pythonhosted.org/packages/12/09/880a1647ae8a2c0435d3d0df6ac5feb51bde5b1c4093265f770273555fbf/chromospyce-0.1.2-py3-none-any.whl
+  sha256: 0d6a7f23339daf9161adc8e34cd9d7a7674c670f8f97a1dfa1c32e177e64ef99
   requires_dist:
   - anywidget>=0.9.13
   - numpy>=1.24.4
@@ -2615,6 +2615,7 @@ packages:
   constrains:
   - prompt_toolkit 3.0.48
   license: BSD-3-Clause
+  license_family: BSD
   purls:
   - pkg:pypi/prompt-toolkit?source=hash-mapping
   size: 270271
@@ -2856,12 +2857,12 @@ packages:
 - kind: conda
   name: python
   version: 3.12.6
-  build: h739c21a_1_cpython
-  build_number: 1
+  build: h739c21a_2_cpython
+  build_number: 2
   subdir: osx-arm64
-  url: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.12.6-h739c21a_1_cpython.conda
-  sha256: 99e0b806062b2a4be3016d9a6d253d85e25b5f9ee6bebe442dec6fd6759288f3
-  md5: 5beefd0212cdea661f999f0ec29a2e3a
+  url: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.12.6-h739c21a_2_cpython.conda
+  sha256: f456c082fe6072de2edfedd0aec93824127c8d5e4edadecddef29c16b3fb537a
+  md5: e63b77873ba23ce9d870aff00375c72f
   depends:
   - __osx >=11.0
   - bzip2 >=1.0.8,<2.0a0
@@ -2879,8 +2880,8 @@ packages:
   - python_abi 3.12.* *_cp312
   license: Python-2.0
   purls: []
-  size: 12852860
-  timestamp: 1727014294263
+  size: 12822136
+  timestamp: 1727719178909
 - kind: conda
   name: python-dateutil
   version: 2.9.0
