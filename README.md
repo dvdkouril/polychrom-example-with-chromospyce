@@ -4,7 +4,7 @@ Polychrom example usage lifted from: [open2c_vignettes](https://github.com/open2
 I'm using [pixi](https://pixi.sh/latest/) to make installing of dependencies
 easier.
 
-Get started:
+## Get started:
 1. install pixi
     - probably via `curl -fsSL https://pixi.sh/install.sh | bash`
 2. run `pixi run lab`
