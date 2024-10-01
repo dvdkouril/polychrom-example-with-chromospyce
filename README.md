@@ -1,4 +1,6 @@
 # polychrom example with chromospyce
+Polychrom example usage lifted from: [open2c_vignettes](https://github.com/open2c/open2c_vignettes)
+
 I'm using [pixi](https://pixi.sh/latest/) to make installing of dependencies
 easier.
 
