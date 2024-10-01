@@ -14,3 +14,5 @@ Get started:
 Other commands:
 - `pixi run nbclear`: clears output and `execution_count` fields in ipynb (for
 pushing to github)
+
+![chromospyce-example](spyce-polychrom-example-teaser.png)
